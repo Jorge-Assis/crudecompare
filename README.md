@@ -10,7 +10,7 @@ three main parameters, API gravity, Sulphur content and Total Acidity Number. Mo
 
 To use the Crudecompare Dashboard, run all the cells of the crudecompare_dashboard.ipynb file. An interface will be displayed as shown on the figure below.
 
-![alt text](/figures/interface.JPG "Interface")
+![interface figure](/figures/interface.jpg "Interface")
 
 1. Select the reference crude oil grade.
 2. Select the source countries.
