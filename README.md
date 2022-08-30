@@ -8,7 +8,21 @@ three main parameters, API gravity, Sulphur content and Total Acidity Number. Mo
 
 ### How to use
 
-To use the ***Crudecompare Dashboard***, run all the cells of the *crudecompare_dashboard.ipynb* file. An interface will be displayed as shown on the figure below.
+1. Clone the directory to your local machine.
+2. Install the requirements for the following packages:
+- Pandas
+- Scikit-Learn
+- Plotly
+- Ipywidgets
+- Selenium
+- BeautifulSoup
+- A-world-of-countries
+
+To use the ***Crudecompare Dashboard***, run all the cells of the *crudecompare_dashboard-v001.ipynb* file. 
+
+The file is organized in two main sections, as detailed in the descriptions. The first section is related with the data gathering and preparation and on the second part is presented the evaluation and assessment of three business questions. 
+
+After running the evaluation bloks, an interface will be displayed as shown on the figure below.
 
 ![interface figure](/figures/interface.jpg "Interface")
 
