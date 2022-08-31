@@ -12,13 +12,12 @@ three main parameters, API gravity, Sulphur content and Total Acidity Number. Mo
 2. Install the requirements for the following packages:
 - Pandas
 - Scikit-Learn
-- Plotly
 - Ipywidgets
 - Selenium
 - BeautifulSoup
 - A-world-of-countries
 
-To use the ***Crudecompare Dashboard***, run all the cells of the *crudecompare_dashboard-v001.ipynb* file. 
+To use the ***Crudecompare Dashboard***, run all the cells of the *crudecompare_dashboard-v003.ipynb* file. 
 
 The file is organized in two main sections, as detailed in the descriptions. The first section is related with the data gathering and preparation and on the second part is presented the evaluation and assessment of three business questions. 
 
