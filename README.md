@@ -2,9 +2,25 @@
 
 ### Overview
 
-With this project I implemented a dashboard on a Jupyter Notebook to compare crude oil grades traded in the international market.
-The used dataset is in the csv file found in the data folder. It is a compilation of 200 different crude oil assays and the ***Crudecompare Dashboard*** will focus on
-three main parameters, API gravity, Sulphur content and Total Acidity Number. More information about the topic is found [here](https://medium.com/@jeyenry/what-are-the-15-most-expensive-crude-oil-in-the-world-part-1-e830ce3a3767).
+With this project I implemented a dashboard on a Jupyter Notebook to compare crude oil grades traded in the international market. 
+
+My motivation for this topic related with crude oil grades is a result of looking for a process that could help oil industry professionals to quickly find answers to questions similar to the following:
+
+1. Given a certain crude oil grade, what is its best substitute?
+2. What are the main differences between two crude oil benchmarks?
+3. What are the 15 more expensive crude oil grades?
+
+For this project, crude oil data is gathered from the websites of selected oil companies. After being treated, the resulting dataset, compiling more than 200 different crude oil assays, is saved on a csv file. The ***Crudecompare Dashboard*** will focus on three main parameters, API gravity, Sulphur content and Total Acidity Number. For the data modelling, the k-nearest algorithm is used for regression and assess the relative distance of a k number of crude oil grades compared with a grade used as reference.
+
+More information about the topic is found [here](https://medium.com/@jeyenry/what-are-the-15-most-expensive-crude-oil-in-the-world-part-1-e830ce3a3767).
+
+### Files in the repository
+
+README.md: this file, containing a overview of the project.
+crudecompare_dashboard-v004.ipynb: Jupyter Notebook containing the data processing and evaluations.
+/data/crude_assays/assays_summary/master_crude_20220826.csv: Cleaned dataset provided for the evaluations.
+
+Inside the **data** folder, the **assays_summary** folder will be also used by the functions on the notebook to compile the data from the crude oil assay files. The other folders (bp, equinor, exxon and totalenergies), will be used to store the crude oil assay files downloaded from the corresponding oil companies' websites for further processing. 
 
 ### How to use
 
@@ -12,28 +28,12 @@ three main parameters, API gravity, Sulphur content and Total Acidity Number. Mo
 2. Install the requirements for the following packages:
 - Pandas
 - Scikit-Learn
-- Ipywidgets
 - Selenium
 - BeautifulSoup
 - A-world-of-countries
 
-To use the ***Crudecompare Dashboard***, run all the cells of the *crudecompare_dashboard-v003.ipynb* file. 
+To use the ***Crudecompare Dashboard***, follow the instructions and descriptions on the *crudecompare_dashboard-v004.ipynb* file. 
 
 The file is organized in two main sections, as detailed in the descriptions. The first section is related with the data gathering and preparation and on the second part is presented the evaluation and assessment of three business questions. 
 
-After running the evaluation bloks, an interface will be displayed as shown on the figure below.
-
-![interface figure](/figures/interface.jpg "Interface")
-
-1. Select the reference crude oil grade.
-2. Select the source countries.
-3. Select the quality parameters to be used on the comparison.
-4. Chose the number of grades to compare
-5. Click on the Submit button.
-
-The result will be a table showing the grades ranked by proximity to the reference grade. In addition, the ranking is also displayed on a chart. Depending on
-the number of quality parameters selected, the chart dimension will be 3d, 2d or 1d.
-
-An additional Show Clusters button is available to display all the crude oil grades on a clustering classification chart. More details of ***Crudecompare Dashboard*** applications can be found [here](https://medium.com/@jeyenry/what-are-the-15-most-expensive-crude-oil-in-the-world-part-2-4213d1649e5f). 
-
-
+The evaluation results will be shown based on a table with the grades ranked by proximity to the reference grade. In addition, the ranking is also displayed on a chart. Depending on the number of quality parameters selected, the chart dimension will be 3d, 2d or 1d.
