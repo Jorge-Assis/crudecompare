@@ -37,3 +37,13 @@ To use the ***Crudecompare Dashboard***, follow the instructions and description
 The file is organized in two main sections, as detailed in the descriptions. The first section is related with the data gathering and preparation and on the second part is presented the evaluation and assessment of three business questions. 
 
 The evaluation results will be shown based on a table with the grades ranked by proximity to the reference grade. In addition, the ranking is also displayed on a chart. Depending on the number of quality parameters selected, the chart dimension will be 3d, 2d or 1d.
+
+### Licensing, Authors and Acknowledgements
+
+This project is an assignment for the Data Science Nanodegree course of Udacity.
+
+Author: Jorge Assis
+Data Source: BP, EQUINOR, EXXON, TOTALENERGIES.
+License: MIT License
+Disclaimer: The used crude oil data sheets are for information purposes only. No guaranty is given as to its accuracy or as to any consequences arising from its use.
+
