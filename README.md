@@ -42,8 +42,8 @@ The evaluation results will be shown based on a table with the grades ranked by 
 
 This project is an assignment for the Data Science Nanodegree course of Udacity.
 
-Author: Jorge Assis
-Data Source: BP, EQUINOR, EXXON, TOTALENERGIES.
-License: MIT License
-Disclaimer: The used crude oil data sheets are for information purposes only. No guaranty is given as to its accuracy or as to any consequences arising from its use.
+- Author: Jorge Assis
+- Data Source: BP, EQUINOR, EXXON, TOTALENERGIES.
+- License: MIT License
+- Disclaimer: The used crude oil data sheets are for information purposes only. No guaranty is given as to its accuracy or as to any consequences arising from its use.
 
