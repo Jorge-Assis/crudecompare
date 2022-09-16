@@ -18,7 +18,7 @@ More information about the topic is found [here](https://medium.com/@jeyenry/wha
 
 README.md: this file, containing a overview of the project.
 crudecompare_dashboard-v004.ipynb: Jupyter Notebook containing the data processing and evaluations.
-/data/crude_assays/assays_summary/master_crude_20220826.csv: Cleaned dataset provided for the evaluations.
+/data/crude_assays/assays_summary/master_crude_20220916.csv: Cleaned dataset provided for the evaluations.
 
 Inside the **data** folder, the **assays_summary** folder will be also used by the functions on the notebook to compile the data from the crude oil assay files. The other folders (bp, equinor, exxon and totalenergies), will be used to store the crude oil assay files downloaded from the corresponding oil companies' websites for further processing. 
 
