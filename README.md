@@ -44,6 +44,15 @@ The file is organized in two main sections, as detailed in the descriptions. The
 
 The evaluation results will be shown based on a table with the grades ranked by proximity to the reference grade. In addition, the ranking is also displayed on a chart. Depending on the number of quality parameters selected, the chart dimension will be 3d, 2d or 1d.
 
+## Results of the Analysis
+Substitute grades can be effectively assessed and easily found based on the parameters, API, Tan and Sulphur content. Those parameters can also help to differentiate the evaluation of the main crude oil benchmarks. The results can be displayed in 3D, 2D or 1D, depending on the number of parameters used for the evaluation. For example, the charts below show the results obtained when comparing potential substitute grades for Agbami based on selected number of parameters for reference.
+
+![Possible substitute for the Nigerian grade Agbami (3D assessment)](chart1.jpg)
+
+![Possible substitute for the Nigerian grade Agbami (2D assessment)](chart2.jpg)
+
+![Possible substitute for the Nigerian grade Agbami (1D assessment)](chart3.jpg)
+
 ## Licensing and Acknowledgements
 
 This project is an assignment for the Data Science Nanodegree course of Udacity.
