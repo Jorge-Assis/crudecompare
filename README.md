@@ -1,10 +1,10 @@
 # Crudecompare Dashboard
 
-### Overview
+### Overview and Project Motivation
 
 With this project I implemented a dashboard on a Jupyter Notebook to compare crude oil grades traded in the international market. 
 
-My motivation for this topic related with crude oil grades is a result of looking for a process that could help oil industry professionals to quickly find answers to questions similar to the following:
+During my professional career in the oil industry, I realized that a key success factor of the business is the correct market evaluation of the crude oil produced and sold. My motivation for this project and topic related with crude oil grades is a result of looking for a process that could help oil industry professionals to quickly find answers to questions similar to the following:
 
 1. Given a certain crude oil grade, what is its best substitute?
 2. What are the main differences between two crude oil benchmarks?
@@ -16,9 +16,9 @@ More information about the topic is found [here](https://medium.com/@jeyenry/wha
 
 ### Files in the repository
 
-README.md: this file, containing a overview of the project.
-crudecompare_dashboard-v004.ipynb: Jupyter Notebook containing the data processing and evaluations.
-/data/crude_assays/assays_summary/master_crude_20220916.csv: Cleaned dataset provided for the evaluations.
+- README.md: this file, containing a overview of the project.
+- crudecompare_dashboard-v004.ipynb: Jupyter Notebook containing the data processing and evaluations.
+- /data/crude_assays/assays_summary/master_crude_20220916.csv: Cleaned dataset provided for the evaluations.
 
 Inside the **data** folder, the **assays_summary** folder will be also used by the functions on the notebook to compile the data from the crude oil assay files. The other folders (bp, equinor, exxon and totalenergies), will be used to store the crude oil assay files downloaded from the corresponding oil companies' websites for further processing. 
 
@@ -43,7 +43,7 @@ The evaluation results will be shown based on a table with the grades ranked by 
 This project is an assignment for the Data Science Nanodegree course of Udacity.
 
 - Author: Jorge Assis
-- Data Source: BP, EQUINOR, EXXON, TOTALENERGIES.
+- Data Source credit: BP, EQUINOR, EXXON, TOTALENERGIES.
 - License: MIT License
 - Disclaimer: The used crude oil data sheets are for information purposes only. No guaranty is given as to its accuracy or as to any consequences arising from its use.
 
