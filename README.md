@@ -30,15 +30,16 @@ Inside the **data** folder, the **assays_summary** folder will be also used by t
 
 ## How to use
 
-1. Clone the directory to your local machine.
-2. Install the requirements for the following packages:
+1. Install Anaconda.
+2. From Anaconda, install the requirements for the following packages:
 - Pandas
 - Scikit-Learn
 - Selenium
 - BeautifulSoup
 - A-world-of-countries
-
-To use the ***Crudecompare Dashboard***, follow the instructions and descriptions on the *crudecompare_dashboard-v004.ipynb* file. 
+3. Clone the crudecompare repository to your local machine.
+4. From Anaconda, open Jupyter Notebook and navigate to the crudecompare folder on your local machine.
+5. To use the ***Crudecompare Dashboard***, follow the instructions and descriptions on the *crudecompare_dashboard-v004.ipynb* file. 
 
 The file is organized in two main sections, as detailed in the descriptions. The first section is related with the data gathering and preparation and on the second part is presented the evaluation and assessment of three business questions. 
 
