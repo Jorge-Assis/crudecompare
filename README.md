@@ -1,6 +1,12 @@
 # Crudecompare Dashboard
 
-### Overview and Project Motivation
+## Table of contents
+* [Overview and Project Motivation](#overview-and-project-motivation)
+* [Files in the repository](#files-in-the-repository)
+* [How to use](#how-to-use)
+* [Licensing and Acknowledgements](#licensing-and-cknowledgements)
+
+## Overview and Project Motivation
 
 With this project I implemented a dashboard on a Jupyter Notebook to compare crude oil grades traded in the international market. 
 
@@ -14,7 +20,7 @@ For this project, crude oil data is gathered from the websites of selected oil c
 
 More information about the topic is found [here](https://medium.com/@jeyenry/what-are-the-15-most-expensive-crude-oil-in-the-world-part-1-e830ce3a3767).
 
-### Files in the repository
+## Files in the repository
 
 - README.md: this file, containing a overview of the project.
 - crudecompare_dashboard-v004.ipynb: Jupyter Notebook containing the data processing and evaluations.
@@ -22,7 +28,7 @@ More information about the topic is found [here](https://medium.com/@jeyenry/wha
 
 Inside the **data** folder, the **assays_summary** folder will be also used by the functions on the notebook to compile the data from the crude oil assay files. The other folders (bp, equinor, exxon and totalenergies), will be used to store the crude oil assay files downloaded from the corresponding oil companies' websites for further processing. 
 
-### How to use
+## How to use
 
 1. Clone the directory to your local machine.
 2. Install the requirements for the following packages:
@@ -38,7 +44,7 @@ The file is organized in two main sections, as detailed in the descriptions. The
 
 The evaluation results will be shown based on a table with the grades ranked by proximity to the reference grade. In addition, the ranking is also displayed on a chart. Depending on the number of quality parameters selected, the chart dimension will be 3d, 2d or 1d.
 
-### Licensing, Authors and Acknowledgements
+## Licensing and Acknowledgements
 
 This project is an assignment for the Data Science Nanodegree course of Udacity.
 
